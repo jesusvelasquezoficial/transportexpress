@@ -1,0 +1,42 @@
+{
+  "name": "Phoenix_Shop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.17.3",
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "dns": "^0.2.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-emoji": "^1.10.0",
+    "nodemailer": "^6.4.14",
+    "nodemon": "^2.0.5",
+    "qrcode-terminal": "^0.12.0",
+    "vue": "^2.6.12",
+    "vue-axios": "^3.0.1",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "whatsapp-web.js": "^1.9.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

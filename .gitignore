@@ -1,0 +1,33 @@
+.DS_Store
+node_modules
+# /dist
+src/assets/basura
+src/assets/ProductosBasura
+src/assets/ProductosOpt
+# src/assets/ProductosPNG
+
+# package
+package-lock.json
+
+# whatsapp
+session.json
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
